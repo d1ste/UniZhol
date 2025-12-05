@@ -1,0 +1,26 @@
+name,city,website,country_rank,has_exchange,has_dormitory,has_sports_facilities,ml_cs_strength,languages,control,size_estimate,Requirements,Application,Deadlines,Scholarships,Financial Aid,Exchange Programs,Partner Universities
+Nazarbayev University,Astana,https://nu.edu.kz,2,yes,yes,yes,5,"KZ, EN, RU",public,~8000,SAT/ENT/IELTS,online,spring-summer,NU scholarships,need-based aid,USA/EU exchange,"Duke, Cambridge, UPenn"
+Al-Farabi Kazakh National University,Almaty,https://www.kaznu.kz,3,yes,yes,yes,4,"KZ, RU, EN",public,~25000,ENT,gov portal,July-August,state grants,partial aid,Erasmus+,500+ partners
+Satbayev University,Almaty,https://satbayev.university,5,yes,yes,yes,4,"KZ, RU, EN",public,~15000,ENT,gov/university portal,July,state grants,limited aid,Tech mobility,"Tomsk, TPU, Skoltech"
+L.N. Gumilyov Eurasian National University,Astana,https://www.enu.kz,4,yes,yes,yes,4,"KZ, RU, EN",public,~18000,ENT,gov portal,July-August,grants,partial aid,Erasmus/CIS,"Turkey, Russia, EU"
+KIMEP University,Almaty,https://kimep.kz,12,yes,yes,yes,3,"EN, KZ, RU",private,~5000,ENT/IELTS,online,until August,internal scholarships,discounts,Global exchange,150+ partners
+Kazakh-British Technical University (KBTU),Almaty,https://kbtu.edu.kz,14,yes,yes,yes,4,"EN, KZ, RU",public/partner,~7000,ENT/IELTS,online,June-August,university scholarships,discounts,STEM exchange,"Heriot-Watt, USA"
+International IT University (IITU),Almaty,https://iitu.edu.kz,21,yes,yes,yes,4,"KZ, RU, EN",public,~3000,ENT,online,July-August,IT scholarships,discounts,IT mobility,"Korea, Turkey, EU"
+Narxoz University,Almaty,https://narxoz.kz,15,yes,yes,yes,2,"KZ, RU, EN",private,~8000,ENT/IELTS,online,June-August,merit scholarships,financial support,EU/Asia exchange,120+ schools
+Suleyman Demirel University,Kaskelen,https://sdu.edu.kz,13,yes,yes,yes,3,"KZ, RU, EN",public,~12000,ENT/IELTS,online testing,June-August,merit grants,fee reductions,Student mobility,"Turkey, EU, Asia"
+Satpayev (duplicate?) East-Kazakhstan State Technical University,Ust-Kamenogorsk,http://www.ektu.kz,1,yes,yes,yes,3,"KZ, RU",public,~8000,ENT,gov portal,July-August,state grants,partial aid,Engineering exchange,"Czech, Poland, Russia"
+E.A. Buketov University of Karaganda,Karaganda,https://ksu.edu.kz,8,yes,yes,yes,3,"KZ, RU",public,~14000,ENT,gov portal,July,state grants,limited aid,Regional exchange,CIS partners
+Abylkas Saginov Karaganda Technical University,Karaganda,http://www.kstu.kz,6,yes,yes,yes,3,"KZ, RU",public,~6000,ENT,online,July-August,technical grants,partial aid,Mining exchange,"Germany, Russia"
+Ahmet Yesevi University,Turkistan,https://ayu.edu.kz,9,yes,yes,no,2,"KZ, TR, RU",public,~6000,ENT,online+tests,summer intake,Turkic grants,benefits,Turkey exchange,Turkish uni partners
+Semipalatinsk State University (Semey),Semey,http://www.ssu.kz,10,yes,yes,yes,2,"KZ, RU",public,~7000,ENT,gov portal,July,state grants,partial support,Academic mobility,"Russia, China, Central Asia"
+S. Toraighyrov Pavlodar State University,Pavlodar,http://tou.edu.kz,11,yes,yes,yes,2,"KZ, RU",public,~6000,ENT,gov portal,July-August,scholarships,limited aid,Engineering mobility,"Czech, Korea"
+Auezov South Kazakhstan State University,Shymkent,https://ukgu.kz,16,yes,yes,yes,2,"KZ, RU",public,~18000,ENT,gov portal,July,state grants,limited support,Erasmus/agro exchange,"EU, Turkey"
+Saken Seifullin Kazakh Agrotechnical University,Astana,https://katu.edu.kz,17,yes,yes,yes,1,"KZ, RU",public,~8000,ENT,gov portal,July-August,agro grants,partial aid,Agro science exchange,"Germany, Hungary, Turkey"
+South Kazakhstan Medical Academy,Shymkent,http://skmu.edu.kz,18,yes,yes,no,1,"KZ, RU",public,~5000,"ENT+Biology",gov portal,July,med grants,low aid,Medical exchange,"Russia, India, Pakistan"
+West Kazakhstan State University,Oral,http://wkgu.kz,19,yes,yes,yes,2,"KZ, RU",public,~7000,ENT,gov portal,July,grants,partial aid,Academic exchange,CIS partners
+Maqsut Narikbayev University (MNU),Astana,https://mnarikbayev.edu.kz,20,yes,yes,yes,2,"KZ, RU, EN",private,~4000,ENT/IELTS,online,May-August,law scholarships,discounts,Law exchange,"US, EU law schools"
+East-Kazakhstan State University (VKGU),Ust-Kamenogorsk,http://www.vkgu.kz,22,yes,yes,yes,2,"KZ, RU",public,~6000,ENT,gov portal,July-August,grants,limited aid,Erasmus,"Poland, Czech, Turkey"
+Kazakh National Pedagogical University (Abai),Almaty,https://abai.edu.kz,7,yes,yes,yes,2,"KZ, RU",public,~15000,ENT,online,July-August,pedagogy grants,partial aid,Teacher exchange,EU institutes
+Kazakh National Agricultural University,Almaty,http://kaznau.kz,23,yes,yes,no,1,"KZ, RU",public,~7000,ENT,gov portal,July,agro grants,partial support,Agro exchange,"Germany, Netherlands, Turkey"
+Kazakh National Medical University,Almaty,http://kaznmu.kz,24,yes,yes,no,1,"KZ, RU",public,~8000,"ENT+Biology/Chemistry",gov portal,July,med grants,limited support,Medical mobility,"Korea, China, EU"
+Manash Kozybayev North Kazakhstan University,Petropavlovsk,https://mknu.kz,25,yes,yes,yes,2,"KZ, RU",public,~5000,ENT,gov portal,July-August,state funding,partial aid,Student exchange,"Poland, Lithuania, Russia"
