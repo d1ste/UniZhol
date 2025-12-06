@@ -64,10 +64,23 @@ export async function POST(req: NextRequest) {
             responseFormat: { type: "json_object" }, 
         });
 
+// app/api/roadmap/route.ts (Начиная примерно со строки 67)
+
+        // Получаем контент ответа
         const content = chatResponse.choices[0].message.content;
         
+        // 🚨 ИСПРАВЛЕНИЕ: Проверка, что контент является строкой и существует
+        if (!content || typeof content !== 'string') {
+            console.error("AI returned null, undefined, or non-string content:", content);
+            return NextResponse.json({ 
+                error: "AI returned empty or invalid response. Please try again." 
+            }, { status: 500 });
+        }
+
         try {
+            // Теперь content гарантированно является строкой
             const roadmapDetails = JSON.parse(content);
+            
             // Убеждаемся, что AI вернул ожидаемую структуру, чтобы избежать ошибок на клиенте
             if (!roadmapDetails.roadmapTitle || !Array.isArray(roadmapDetails.steps)) {
                  throw new Error("Invalid structure from AI.");
@@ -78,6 +91,8 @@ export async function POST(req: NextRequest) {
             console.error("Failed to parse AI JSON roadmap response:", content);
             return NextResponse.json({ error: "AI returned invalid JSON format. (Internal error)" }, { status: 500 });
         }
+    
+    // ... (остальной код catch(error) и закрывающая скобка)
 
     } catch (error) {
         console.error("Roadmap API general error. Next.js might be crashing:", error);

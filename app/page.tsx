@@ -4,7 +4,9 @@ import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Search, MapPin, Cpu, Globe, Scale, Check, X } from 'lucide-react';
 import Link from 'next/link';
-
+// ...
+import { slugify } from '@/lib/utils'; // Если вы создали этот файл
+// ...
 // Тип данных, который мы ожидаем от сервера
 interface University {
     id: number;
@@ -508,6 +510,9 @@ export default function Home() {
                                 ))}
                             </div>
                         </div>
+
+
+
                     )}
                 </>
             )}

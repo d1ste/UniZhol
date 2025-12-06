@@ -55,15 +55,25 @@ const prompt = `
             responseFormat: { type: "json_object" },
         });
 
-        const content = chatResponse.choices?.[0]?.message?.content;
+const content = chatResponse.choices[0].message.content;
+
+        // 🚨 ИСПРАВЛЕНИЕ: Проверка, что контент является строкой и существует
+        if (!content || typeof content !== 'string') {
+            console.error("AI returned empty or non-string content for uni-details:", content);
+            return NextResponse.json({ 
+                error: "AI returned empty or invalid response. Please try again." 
+            }, { status: 500 });
+        }
         
         try {
+            // Теперь content гарантированно является строкой
             const uniDetails = JSON.parse(content);
             return NextResponse.json(uniDetails);
+            
         } catch (jsonError) {
-            console.error("Failed to parse AI JSON response:", content);
+            console.error("Failed to parse AI JSON response in uni-details:", content);
             return NextResponse.json({ error: "AI returned invalid JSON format. (Internal error)" }, { status: 500 });
-        }
+        }n
 
     } catch (error) {
         console.error("Mistral API error:", error);
